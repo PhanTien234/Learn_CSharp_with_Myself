@@ -16,11 +16,11 @@ public class CallMethodByRecursive
         }
     }
   
-    static void Main(string[] args) 
-    {
-        CallMethodByRecursive n = new CallMethodByRecursive();
-     
-        Console.WriteLine("Factorial of 7 is : {0}", n.Factorial(7));
-        Console.ReadLine();
-    }
+    // static void Main(string[] args) 
+    // {
+    //     CallMethodByRecursive n = new CallMethodByRecursive();
+    //  
+    //     Console.WriteLine("Factorial of 7 is : {0}", n.Factorial(7));
+    //     Console.ReadLine();
+    // }
 }
