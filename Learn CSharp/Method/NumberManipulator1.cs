@@ -11,24 +11,24 @@ public class NumberManipulator1
         b = temp; /* put temp into b */
     }
 
-    static void main(string[] args)
-    {
-        NumberManipulator1 n = new NumberManipulator1();
-
-        /* local variable definition */
-        int a = 100;
-        int b = 200;
-
-        Console.WriteLine("Before swap, value of a : {0}", a);
-        Console.WriteLine("Before swap, value of b : {0}", b);
-
-        /* calling a function to swap the values */
-        n.Swap(ref a, ref b);
-
-        Console.WriteLine("After swap, value of a : {0}", a);
-        Console.WriteLine("After swap, value of b : {0}", b);
-
-        Console.ReadLine();
-    }
+    // static void main(string[] args)
+    // {
+    //     NumberManipulator1 n = new NumberManipulator1();
+    //
+    //     /* local variable definition */
+    //     int a = 100;
+    //     int b = 200;
+    //
+    //     Console.WriteLine("Before swap, value of a : {0}", a);
+    //     Console.WriteLine("Before swap, value of b : {0}", b);
+    //
+    //     /* calling a function to swap the values */
+    //     n.Swap(ref a, ref b);
+    //
+    //     Console.WriteLine("After swap, value of a : {0}", a);
+    //     Console.WriteLine("After swap, value of b : {0}", b);
+    //
+    //     Console.ReadLine();
+    // }
 }
 

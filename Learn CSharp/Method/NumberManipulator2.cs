@@ -8,16 +8,16 @@ public class NumberManipulator2
             x = temp;
         }
       
-        static void main(string[] args) 
-        {         
-            int a;
-            NumberManipulator2 numberManipulator = new NumberManipulator2();
-         
-            /* calling a function to get the value */
-            numberManipulator.GetValue(out a);
-
-            Console.WriteLine("Method call, value of a : {0}", a);
-            Console.ReadLine();
-        }
+        // static void main(string[] args) 
+        // {         
+        //     int a;
+        //     NumberManipulator2 numberManipulator = new NumberManipulator2();
+        //  
+        //     /* calling a function to get the value */
+        //     numberManipulator.GetValue(out a);
+        //
+        //     Console.WriteLine("Method call, value of a : {0}", a);
+        //     Console.ReadLine();
+        // }
     }
     
