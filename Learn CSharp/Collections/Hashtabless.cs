@@ -14,5 +14,10 @@ public class Hashtabless
         {
             Console.WriteLine("Key: {0} - value: {1}", item.Key, item.Value);
         }
+
+        foreach (var key in hashtable.Keys)
+        {
+            Console.WriteLine("Key: {0}", key);
+        }
     }
 }
