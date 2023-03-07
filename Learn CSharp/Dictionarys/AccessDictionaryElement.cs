@@ -37,4 +37,7 @@ public class AccessDictionaryElement
 //The result:
 //London, Manchester, Birmingham
 //Chicago, New York, Washington
-//---
+//---access elements using for loop---
+//Key: UK, Value: London, Manchester, Birmingham
+//Key: USA, Value: Chicago, New York, Washington
+//Key: India, Value: Mumbai, New Delhi, Pune
