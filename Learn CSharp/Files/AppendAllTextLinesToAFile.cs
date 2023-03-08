@@ -11,5 +11,7 @@ public class AppendAllTextLinesToAFile
         File.AppendAllLines(@"C:\DummyFile.txt", dummyLines.Split(Environment.NewLine.ToCharArray()).ToList<string>());
         //Opens DummyFile.txt and append Text.If file is not exists then create and open.
         File.AppendAllText(@"C:\DummyFile.txt", "This is File testing");
+        //Opens DummyFile.txt and write texts. If file is not exists then create and open.
+        File.WriteAllText(@"C:\DummyFile.txt", "This is dummy Text");
     }
 }
